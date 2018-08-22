@@ -177,7 +177,7 @@
               </div>
             </div>
           </a>
-          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+          <div class="list-group-item list-group-item-action flex-column align-items-start">
             <div class="col-md-12">
               <div class="row">
                 <div class="d-flex align-items-center col-md-4">
@@ -188,51 +188,585 @@
                     <div class="progress-bar progress-bar-striped" role="progressbar" style="width: 50%">50%</div>
                   </div>
                 </div>
-                <div class="d-flex align-items-center col-md-2"> Decision </div>
-                <div class="d-flex align-items-center col-md-4"> Test Results </div>
+                <div class="d-flex align-items-center col-md-2">
+                  <select class="custom-select">
+                    <option selected="" value="Undetermined">Undetermined</option>
+                    <option value="Approved">Approved</option>
+                    <option value="Rejected">Rejected</option>
+                  </select>
+                </div>
+                <div class="d-flex align-items-center col-md-4">
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-balance-scale px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-hourglass-half px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-low-vision px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-bug px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-puzzle-piece px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-sitemap px-1"></i>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </a>
-          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+          </div>
+          <div class="list-group-item list-group-item-action flex-column align-items-start">
             <div class="col-md-12">
               <div class="row">
-                <div class="d-flex align-items-center col-md-4"> Test Case </div>
-                <div class="d-flex align-items-center col-md-2"> Progress </div>
-                <div class="d-flex align-items-center col-md-2"> Decision </div>
-                <div class="d-flex align-items-center col-md-4"> Test Results </div>
+                <div class="d-flex align-items-center col-md-4">
+                  <p class="my-2"> test.case.name.is.the.filename.for.screenshot.02.png</p>
+                </div>
+                <div class="d-flex col-md-2 flex-column justify-content-center">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width:90%">90%</div>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center col-md-2">
+                  <select class="custom-select">
+                    <option selected="" value="Undetermined">Undetermined</option>
+                    <option value="Approved">Approved</option>
+                    <option value="Rejected">Rejected</option>
+                  </select>
+                </div>
+                <div class="d-flex align-items-center col-md-4">
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-balance-scale px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-hourglass-half px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-low-vision px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-bug px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-puzzle-piece px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-sitemap px-1"></i>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </a>
-          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+          </div>
+          <div class="list-group-item list-group-item-action flex-column align-items-start">
             <div class="col-md-12">
               <div class="row">
-                <div class="d-flex align-items-center col-md-4"> Test Case </div>
-                <div class="d-flex align-items-center col-md-2"> Progress </div>
-                <div class="d-flex align-items-center col-md-2"> Decision </div>
-                <div class="d-flex align-items-center col-md-4"> Test Results </div>
+                <div class="d-flex align-items-center col-md-4">
+                  <p class="my-2"> test.case.name.is.the.filename.for.screenshot.03.png</p>
+                </div>
+                <div class="d-flex col-md-2 flex-column justify-content-center">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width:75%">75%</div>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center col-md-2">
+                  <select class="custom-select">
+                    <option selected="" value="Undetermined">Undetermined</option>
+                    <option value="Approved">Approved</option>
+                    <option value="Rejected">Rejected</option>
+                  </select>
+                </div>
+                <div class="d-flex align-items-center col-md-4">
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-balance-scale px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-hourglass-half px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-low-vision px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-bug px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-puzzle-piece px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-sitemap px-1"></i>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </a>
-          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+          </div>
+          <div class="list-group-item list-group-item-action flex-column align-items-start">
             <div class="col-md-12">
               <div class="row">
-                <div class="d-flex align-items-center col-md-4"> Test Case </div>
-                <div class="d-flex align-items-center col-md-2"> Progress </div>
-                <div class="d-flex align-items-center col-md-2"> Decision </div>
-                <div class="d-flex align-items-center col-md-4"> Test Results </div>
+                <div class="d-flex align-items-center col-md-4">
+                  <p class="my-2"> test.case.name.is.the.filename.for.screenshot.04.png</p>
+                </div>
+                <div class="d-flex col-md-2 flex-column justify-content-center">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width:100%">100%</div>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center col-md-2">
+                  <select class="custom-select">
+                    <option selected="" value="Undetermined">Undetermined</option>
+                    <option value="Approved">Approved</option>
+                    <option value="Rejected">Rejected</option>
+                  </select>
+                </div>
+                <div class="d-flex align-items-center col-md-4">
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-balance-scale px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-hourglass-half px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-low-vision px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-bug px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-puzzle-piece px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-sitemap px-1"></i>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </a>
-          <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+          </div>
+          <div class="list-group-item list-group-item-action flex-column align-items-start">
             <div class="col-md-12">
               <div class="row">
-                <div class="d-flex align-items-center col-md-4"> Test Case </div>
-                <div class="d-flex align-items-center col-md-2"> Progress </div>
-                <div class="d-flex align-items-center col-md-2"> Decision </div>
-                <div class="d-flex align-items-center col-md-4"> Test Results </div>
+                <div class="d-flex align-items-center col-md-4">
+                  <p class="my-2"> test.case.name.is.the.filename.for.screenshot.05.png</p>
+                </div>
+                <div class="d-flex col-md-2 flex-column justify-content-center">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped bg-success" role="progressbar" style="width:100%">100%</div>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center col-md-2">
+                  <select class="custom-select">
+                    <option selected="" value="Undetermined">Undetermined</option>
+                    <option value="Approved">Approved</option>
+                    <option value="Rejected">Rejected</option>
+                  </select>
+                </div>
+                <div class="d-flex align-items-center col-md-4">
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-balance-scale px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-hourglass-half px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-low-vision px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-bug px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-puzzle-piece px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-sitemap px-1"></i>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
-          </a>
+          </div>
+          <div class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="d-flex align-items-center col-md-4">
+                  <p class="my-2"> test.case.name.is.the.filename.for.screenshot.06.png</p>
+                </div>
+                <div class="d-flex col-md-2 flex-column justify-content-center">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width:0%">0%</div>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center col-md-2">
+                  <select class="custom-select">
+                    <option selected="" value="Undetermined">Undetermined</option>
+                    <option value="Approved">Approved</option>
+                    <option value="Rejected">Rejected</option>
+                  </select>
+                </div>
+                <div class="d-flex align-items-center col-md-4">
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-balance-scale px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-hourglass-half px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-low-vision px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-bug px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-puzzle-piece px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-sitemap px-1"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="d-flex align-items-center col-md-4">
+                  <p class="my-2"> test.case.name.is.the.filename.for.screenshot.07.png</p>
+                </div>
+                <div class="d-flex col-md-2 flex-column justify-content-center">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width:0%">0%</div>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center col-md-2">
+                  <select class="custom-select">
+                    <option selected="" value="Undetermined">Undetermined</option>
+                    <option value="Approved">Approved</option>
+                    <option value="Rejected">Rejected</option>
+                  </select>
+                </div>
+                <div class="d-flex align-items-center col-md-4">
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-balance-scale px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-hourglass-half px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-low-vision px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-bug px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-puzzle-piece px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-sitemap px-1"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="d-flex align-items-center col-md-4">
+                  <p class="my-2"> test.case.name.is.the.filename.for.screenshot.08.png</p>
+                </div>
+                <div class="d-flex col-md-2 flex-column justify-content-center">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width:0%">0%</div>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center col-md-2">
+                  <select class="custom-select">
+                    <option selected="" value="Undetermined">Undetermined</option>
+                    <option value="Approved">Approved</option>
+                    <option value="Rejected">Rejected</option>
+                  </select>
+                </div>
+                <div class="d-flex align-items-center col-md-4">
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-balance-scale px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-hourglass-half px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-low-vision px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-bug px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-puzzle-piece px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-sitemap px-1"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="d-flex align-items-center col-md-4">
+                  <p class="my-2"> test.case.name.is.the.filename.for.screenshot.09.png</p>
+                </div>
+                <div class="d-flex col-md-2 flex-column justify-content-center">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width:0%">0%</div>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center col-md-2">
+                  <select class="custom-select">
+                    <option selected="" value="Undetermined">Undetermined</option>
+                    <option value="Approved">Approved</option>
+                    <option value="Rejected">Rejected</option>
+                  </select>
+                </div>
+                <div class="d-flex align-items-center col-md-4">
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-balance-scale px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-hourglass-half px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-low-vision px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-bug px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-puzzle-piece px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-sitemap px-1"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div href="#" class="list-group-item list-group-item-action flex-column align-items-start">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="d-flex align-items-center col-md-4">
+                  <p class="my-2"> test.case.name.is.the.filename.for.screenshot.10.png</p>
+                </div>
+                <div class="d-flex col-md-2 flex-column justify-content-center">
+                  <div class="progress">
+                    <div class="progress-bar progress-bar-striped" role="progressbar" style="width:0%">0%</div>
+                  </div>
+                </div>
+                <div class="d-flex align-items-center col-md-2">
+                  <select class="custom-select">
+                    <option selected="" value="Undetermined">Undetermined</option>
+                    <option value="Approved">Approved</option>
+                    <option value="Rejected">Rejected</option>
+                  </select>
+                </div>
+                <div class="d-flex align-items-center col-md-4">
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-balance-scale px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-hourglass-half px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-low-vision px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-bug px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-puzzle-piece px-1"></i>
+                    </div>
+                  </div>
+                  <div class="col-md-2">
+                    <div class="form-check mt-2 form-check-inline">
+                      <input class="form-check-input" type="checkbox" id="exampleCheck1" value="on">
+                      <i class="d-inline fa-lg fa fa-sitemap px-1"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
