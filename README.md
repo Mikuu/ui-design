@@ -21,8 +21,4 @@ https://user-images.githubusercontent.com/11648253/132113799-2a9c8779-6857-4cad-
 
 local auto
 
-
-https://github.com/Mikuu/ui-design/blob/master/video/ignoring.single.mp4
-
-
-[!][the video](https://github.com/Mikuu/ui-design/blob/master/video/ignoring.single.mp4)
+[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
