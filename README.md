@@ -21,4 +21,4 @@ https://user-images.githubusercontent.com/11648253/132113799-2a9c8779-6857-4cad-
 
 local auto
 
-[![Watch the video](https://img.youtube.com/vi/T-D1KVIuvjA/maxresdefault.jpg)](https://youtu.be/T-D1KVIuvjA)
+[![Watch the video]](https://youtu.be/T-D1KVIuvjA)
